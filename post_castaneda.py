@@ -4,7 +4,7 @@ import os
 import random
 import re
 
-TOKEN = '7550564253:AAG6uPWjY2NhfslXAM6hZY8ZGtFtR8N_dnA'
+TOKEN = os.environ["BOT_TOKEN"]
 CHANNEL_ID = '@castaneda_vibe'
 QUOTES_FILE = 'castaneda.json'
 USED_FILE = 'castaneda_used.json'
